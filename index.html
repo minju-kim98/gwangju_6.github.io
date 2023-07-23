@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <script src="https://kit.fontawesome.com/2e242f2d02.js" crossorigin="anonymous"></script>
+    <title>SSAFY 10기 광주 6반</title>
+</head>
+<body>
+    <header>
+        <div data-include-path="./common/header.html"></div>
+    </header>
+    <main>
+        
+        <div class="calendar">
+            <div class='rap'>
+                <div class="header">
+                   <div class="btn prevDay"></div>
+                  <h2 class='dateTitle'></h2>
+                  <div class="btn nextDay"></div>
+                </div>
+                
+                <div class="grid dateHead">
+                  <div>일</div>
+                  <div>월</div>
+                  <div>화</div>
+                  <div>수</div>
+                  <div>목</div>
+                  <div>금</div>
+                  <div>토</div>
+                </div>
+            
+                <div class="grid dateBoard"></div>
+              </div>
+        </div>
+
+
+
+        <div data-include-path="./common/sites.html"></div>
+        
+    </main>
+    <footer>
+        <div data-include-path="./common/footer.html"></div>
+    </footer>
+
+
+    <script src="./script/index.js"></script>
+    <script src="./script/calendar.js"></script>
+</body>
+</html>

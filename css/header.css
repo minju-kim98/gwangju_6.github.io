@@ -1,0 +1,28 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 45px 60px;
+    background-color: white;
+    color: #6a75ca;
+    font-size: 18px;
+    /* border-bottom: 1px solid #e0e3fd; */
+    z-index: 10;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: right;
+    list-style-type: none;
+    padding-right: 100px;
+  }
+
+  .list-link {
+    margin-left: 70px;
+    color: #abd2df;
+    text-decoration: none;
+  }
+  .list-link:hover {
+    color: black;
+  }

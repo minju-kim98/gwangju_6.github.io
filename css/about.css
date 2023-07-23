@@ -1,0 +1,10 @@
+.game-wrapper{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.game-wrapper a{
+    text-decoration: none;
+    color: black;
+    
+}
