@@ -10,6 +10,7 @@ const data = [
     { date: "2023-09-23", content: "김희주 생일" },
     { date: "2023-12-02", content: "류성제 생일" },
     { date: "2024-03-15", content: "박미성 생일" },
+    { date: "2023-09-11", content: "서준원 생일" },
     { date: "2023-09-06", content: "선상범 생일" },
     { date: "2023-08-16", content: "송강산 생일" },
     { date: "2024-05-13", content: "송하은 생일" },
@@ -26,6 +27,7 @@ const data = [
     { date: "2023-12-09", content: "임채진 생일" },
     { date: "2024-01-27", content: "한상명 생일" },
     { date: "2023-11-12", content: "현상균 생일" },
+    { date: "2023-12-15", content: "기륜쌤 생일" },
   ];
   
   // 데이터 가공
